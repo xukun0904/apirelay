@@ -1,5 +1,7 @@
 # 开发指南:
 
+Knative云原生网关
+
 ## 包名说明：
 
 - apirelay
@@ -11,4 +13,3 @@
   - util -- 工具类
   - web -- 服务处理
 - main.go -- 程序入口
-"# apirelay" 
