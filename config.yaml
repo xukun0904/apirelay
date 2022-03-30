@@ -1,0 +1,17 @@
+port: 8888
+test: false
+api:
+  path: /model/modelInfo/findAll
+  response_content_type: 1
+  protocol: 1
+  request_method: 1
+  request_params:
+    - name: name
+      type: 1
+      required: false
+    - name: type
+      type: 1
+      required: false
+service:
+  host: http://3.7.191.8:10100
+  timeout: 1000
